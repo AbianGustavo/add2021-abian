@@ -129,3 +129,20 @@ Por último con estos comandos comprobaremos los resultados:
 ![](Images/3.2.4.png)
 
 ![](Images/3.2.5.png)
+
+### 3.3 Montaje automático
+
+Usamos el df -hT y comprobamos que el recurso anterior ya no está montado.
+
+![](Images/3.3.1.png)
+
+
+Para configurar acciones de montaje automáticos cada vez que se inicie el equipo, debemos configurar el fichero **/etc/fstab**.
+
+* //smb-server03/public /mnt/client03/public cifs username=soldado1,password=soldado01 0 0
+
+![](Images/3.3.2.png)
+
+Al reiniciar comprobamos que por algún error que desconozco no se realiza el montaje automático.
+
+![](Images/3.3.3.png)
