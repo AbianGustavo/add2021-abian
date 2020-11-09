@@ -36,7 +36,10 @@ Seleccionaremos **impresora -> botón derecho -> conectar**. Ponemos usuario/cla
 
 Vamos a realizar seguidamente una prueba sencilla en nuestra impresora de red. Primero de todo accedemos a la configuración de la impresora a través del navegador. Pondremos en pausa los trabajos de impresión de la impresora.
 
+![](Images/3.3.png)
+
 ![](Images/3.3.1.png)
+
 
 Ir a MV cliente. Probar la impresora remota imprimiendo documento **imprimir03w-web**. Comprobar que al estar la impresora en pausa, el trabajo aparece en cola de impresión.
 
